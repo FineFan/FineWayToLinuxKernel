@@ -6,5 +6,5 @@
 * [03-标杆 与 死线](03-biao-gan-yu-si-xian.md)
 * [04- 硬件 系统 应用 与 内核](04-ying-jian-xi-tong-ying-yong-yu-nei-he.md)
 * [05-幻灭 开始 发光](05-huan-mie-kai-shi-fa-guang.md)
-* [README](<README (1).md>)
 * [06-图片测试页](06-tu-pian-ce-shi-ye.md)
+* [README](<README (1).md>)
