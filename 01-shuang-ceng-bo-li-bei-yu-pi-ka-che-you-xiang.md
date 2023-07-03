@@ -82,6 +82,10 @@ Fine”
 
 ”啊 ，那你们是被移到IBM去了么？“
 
+
+
+（真正的出处在这里）
+
 {% embed url="https://www.ibm.com/cloud/blog/announcements/ibm-red-hat-doubling-down-on-hybrid-cloud-storage" %}
 
 ”额，不是，移过去的 是另外的存储组。“
@@ -95,6 +99,8 @@ Fine”
 ”奥，我懂了。“
 
 电梯从8层来到了1层。
+
+我们就此别过，我猜我刚刚完成了一次成功的电梯演讲。
 
 
 
