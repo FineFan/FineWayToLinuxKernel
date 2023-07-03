@@ -4,7 +4,7 @@
 
 
 
-## 为什么要有标杆
+## 标杆
 
 一直以来 想要将自己 避免的一个自我认知的 陷阱 。
 
@@ -32,13 +32,17 @@
 
 尽管读到的时候心情很是澎湃，但是在之后的实践中发现，其实 在 摸清第一根线的时候就比较费劲。如果是在一个大公司里面的某个岗位，更多的时候大家并不愿意把工作的真正情况暴露出来。如果是产业中的某个厂商，友商或者竞争对手才不愿意把自己是怎么做的都共享出来呢。
 
-第二条的理论极限倒是很好得到，
+第二条的理论极限倒是很好得到，有些时候搜一搜，或者简单的计算就可以。
+
+具体到了推进的时候，就需要自己多多努力了，不仅在事情的方面要努力，在协调周围的人事物上面也要花费不少的心思。感兴趣的话可以搜一下当年为什么德国没有第一个造出原子弹。
 
 
 
 ## 具体选择那些标杆呢？
 
-终于找到了一个 合适的网站 来进行相关的学习Linux Foundation[https://training.linuxfoundation.org/training/a-beginners-guide-to-linux-kernel-development-lfd103/](https://training.linuxfoundation.org/training/a-beginners-guide-to-linux-kernel-development-lfd103/)
+终于找到了一个 合适的网站 来进行相关的学习Linux Foundation
+
+[https://training.linuxfoundation.org/training/a-beginners-guide-to-linux-kernel-development-lfd103/](https://training.linuxfoundation.org/training/a-beginners-guide-to-linux-kernel-development-lfd103/)
 
 
 
