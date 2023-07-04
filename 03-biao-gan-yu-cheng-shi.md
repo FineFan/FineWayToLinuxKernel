@@ -148,19 +148,31 @@
 
 1.破除个人认知圈，开始理解周边人的感受和想法。
 
-2.破除家庭，学校的印记，能够跳出自己的家庭习惯，学校传统
+2.破除家庭，学校的印记，能够跳出自己的家庭习惯，学校传统等等，更大的包容性，更宽广的视野。
+
+3.时代印记，我认为这种是最难克服，比如我们这帮90后生活的年代 是中国高速增长的时代，我们成长中的所见所闻，在之后的日子里会被我们当成理所应当。
+
+三圈之后，是做事的方式。首先要入局，加入牌局和大家打成一片。之后要识局，一定要有一个更大的尺度来衡量当前所作的事情，知道自己要去哪里，现在玩的在开心也是个中途岛。破局就是离开中途岛的时候，朝着最终的目标，前往下一个中途岛。成事就是利用身边手头的资源把当前的想要做的事情和大家一起开开心心的做成。
 
 
+
+我在这里想做成的事情就是：
+
+通过这里的 一边学习，一边实践，一边屡清楚 从小白 到内核测试的路径过程。
 
 
 
 ## 一些我学习路上的参考会不断的更新
 
-终于找到了一个 合适的网站 来进行相关的学习Linux Foundation
+Linux Foundation  LFD 103 课程
 
-[https://training.linuxfoundation.org/training/a-beginners-guide-to-linux-kernel-development-lfd103/](https://training.linuxfoundation.org/training/a-beginners-guide-to-linux-kernel-development-lfd103/)
+{% embed url="https://training.linuxfoundation.org/training/a-beginners-guide-to-linux-kernel-development-lfd103/" %}
 
 
+
+Linux Kernel in a nut shell
+
+{% embed url="http://www.kroah.com/lkn/" %}
 
 
 
