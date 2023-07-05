@@ -166,17 +166,5 @@ description: 完成
 
 
 
-## 一些我学习路上的参考会不断的更新
-
-Linux Foundation  LFD 103 课程
-
-{% embed url="https://training.linuxfoundation.org/training/a-beginners-guide-to-linux-kernel-development-lfd103/" %}
-
-
-
-Linux Kernel in a nut shell
-
-{% embed url="http://www.kroah.com/lkn/" %}
-
 
 
