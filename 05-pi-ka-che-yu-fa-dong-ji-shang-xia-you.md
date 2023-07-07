@@ -16,6 +16,8 @@
 
 
 
+{% embed url="https://github.com/torvalds/linux" %}
+
 
 
 ## Fedora Kernel Repo
@@ -24,9 +26,9 @@
 
 ## CentOS Stream Kernel Repo
 
+{% embed url="https://gitlab.com/redhat/centos-stream/src/kernel/centos-stream-9" %}
 
-
-
+{% embed url="https://gitlab.com/redhat/centos-stream/src/kernel/centos-stream-8" %}
 
 ## RHEL Kernel Repo
 
