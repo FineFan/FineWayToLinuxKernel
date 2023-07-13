@@ -6,7 +6,15 @@
 
 {% embed url="https://www.redhat.com/en/topics/linux/what-is-centos-stream" %}
 
-<figure><img src=".gitbook/assets/FromOpenSourceCommunity-To-RHEL.jpg" alt=""><figcaption></figcaption></figure>
+
+
+简单来说就是 社区的代码慢慢先汇聚到 Fedora社区,之后是CentOS Stream  最后是 RHEL的社区。
+
+<figure><img src=".gitbook/assets/OpenSource community projects _ Fedora Linux_CentOS Stream _RHEL.jpg" alt=""><figcaption></figcaption></figure>
+
+
+
+
 
 
 
