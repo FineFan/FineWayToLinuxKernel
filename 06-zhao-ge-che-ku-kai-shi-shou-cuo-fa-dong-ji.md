@@ -83,6 +83,10 @@ dnf -y install gcc vim make git wget
 
 
 
+
+
+<figure><img src=".gitbook/assets/kernel_git_stable_linux.git.jpg" alt=""><figcaption></figcaption></figure>
+
 #### 开始手搓
 
 
