@@ -42,18 +42,15 @@ git
 
 wget
 
-
+tmux
 
 
 
 ```shell
-// Some code
-dnf -y install gcc vim make git wget
-
-
+// 切换到 root用户然后使用 dnf 安装先关的rpm包
 [fine@fedora37 ~]$ sudo su - root
 [sudo] password for fine: 
-[root@fedora37 ~]# dnf -y install wget gcc make vim
+[root@fedora37 ~]# dnf -y install wget gcc make vim tmux
 
 ```
 
@@ -63,11 +60,12 @@ dnf -y install gcc vim make git wget
 
 <figure><img src=".gitbook/assets/kernel_git_stable_linux.git.jpg" alt="" width="375"><figcaption></figcaption></figure>
 
-切换到root用户之后，在当前目录下 创建一个Git的目录，之后在创建的Git目录里面
+切换到root用户之后，在当前目录下 创建一个Git的目录，进入Git目录，并且开始tmux
 
 ```
 [root@fedora37 ~]# mkdir Git
 [root@fedora37 ~]# cd Git/
+[root@fedora37 Git]# tmux
 [root@fedora37 Git]# git clone git://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git
 Cloning into 'linux'...
 
