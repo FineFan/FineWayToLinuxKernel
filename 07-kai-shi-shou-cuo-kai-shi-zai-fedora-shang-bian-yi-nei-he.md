@@ -77,9 +77,6 @@ remote: Compressing objects: 100% (797/797), done.
 Receiving objects:   0% (270/11599348), 228.01 KiB | 16.00 KiB/s
 
 # 之后这里也要等待好久
-
-
-
 ```
 
 
