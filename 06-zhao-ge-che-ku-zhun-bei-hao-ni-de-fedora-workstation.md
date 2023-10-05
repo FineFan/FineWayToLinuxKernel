@@ -109,5 +109,54 @@ GNOME 是一套桌面系统，我们如果拿皮卡车的模型来类比的话�
 
 
 
+开源界里面几乎每一个组件背后都有一个组织、社区、一段传奇故事。有些是关于版权的，有些就是当时的场景下需要实现某些功能而开发出来的代码。
+
+## 修改一下 GNOME的一些设置   --- 未完成
+
+### 允许 Root登录
+
+
+
+### 禁用休眠
+
+
+
+## 修改一下默认的 shell prompt
+
+首先请备份一下 /etc/bashrc 文件,切换到root用户之后
+
+```
+cp /etc/bashrc /etc/bashrc_bak
+```
+
+之后使用vim 将以下内容追加到 /etc/bashrc后面
+
+```
+# To add git branch into the prompt
+#
+parse_git_branch() {
+     git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/ (\1)/'
+}
+
+if [ $UID == 0 ];then
+    export PS1="\u@\h \[\033[32m\]\W\[\033[33m\]\$(parse_git_branch)\[\033[00m\] # "
+else
+    export PS1="\u@\h \[\033[32m\]\W\[\033[33m\]\$(parse_git_branch)\[\033[00m\] $ "
+fi
+
+```
+
+之后使用当前用户 读取文件以便让修改的配置生效。
+
+```
+source /etc/bashrc
+```
+
+这样当后面我们要开始手搓发动机的时候,我们会需要到上游的 Git库中 克隆不同的代码，当一个Git库克隆到本地之后，我们需要时刻清楚自己在哪个分支上做事情，这样就不会掉到坑里，默认情况下我们需要一遍又一遍的重复git branch 的命令，为了方便 我将Git库中的branch 信息默认打印到了 Shell Promopt中
+
+<figure><img src=".gitbook/assets/shell_prompt_with_branch_name.jpg" alt=""><figcaption></figcaption></figure>
+
+上图中黄色的(master)就是  我想在呈现的 branch内容。
+
 
 
