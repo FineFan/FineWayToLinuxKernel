@@ -67,7 +67,45 @@
 
 
 
-## 关于Fedora 的生命周期
+## 关于Fedora 的生命周期&#x20;
+
+在这里我想简单说一下关于Fedora 项目的生命周期问题。具体的阐述可以在网页上找到具体的描述[https://docs.fedoraproject.org/en-US/releases/lifecycle/](https://docs.fedoraproject.org/en-US/releases/lifecycle/)&#x20;
+
+Fedora 项目大约每六个月发布一个新版本的 Fedora Linux，并为这些版本提供大约 13 个月的更新包（维护）。&#x20;
+
+引用一个 维基百科的 甘特图可能更为清晰
+
+{% embed url="https://upload.wikimedia.org/wikipedia/en/timeline/czqm01sd3b4jhdqbwilvkwefcnc0813.png" %}
+
+上图来自网页[https://en.wikipedia.org/wiki/Fedora\_Linux](https://en.wikipedia.org/wiki/Fedora\_Linux)
+
+
+
+上图猛一下看起来可能有点过大，我来节选一下近期的版本发布图
+
+<figure><img src=".gitbook/assets/Part_of_Fedora_Release_Table.jpg" alt=""><figcaption></figcaption></figure>
+
+其实在 维基百科的页面中还有一个表格 也列出来了具体的计划日期，为了方便我们将那个大表格也截选出近期的版本方便大家观看学习。
+
+<figure><img src=".gitbook/assets/Fedora_Release_Table.jpg" alt=""><figcaption></figcaption></figure>
+
+上图中最左边的 Version 其实就是 Fedora发布的版本，我们可以将其理解为那个皮卡车的版本。
+
+Release 是发布的日期。
+
+End-of-life 是计划中停止更新的日期。
+
+Kernel 就是在发布的时候所使用的 Kernel大版本号，后续可以升级。
+
+GNOME 是一套桌面系统，我们如果拿皮卡车的模型来类比的话，可以看作是汽车的内饰面板。
+
+<figure><img src=".gitbook/assets/Version_Kernel_Gnome_Pickup_Engin_Pannel.jpg" alt=""><figcaption></figcaption></figure>
+
+当有了这些基础的概念框架之后，我们在后面的学习中碰到海量的知识散点的时候就不会眉头紧皱满脑焦虑了。“这是什么，这又是什么，我刚才做了什么，我要干什么来着。怎么这么多东西要学习。。”
+
+
+
+就像是一台皮卡车一样，它上面除了发动机，控制面板，还有很多很多的系统来保证功能运行和人机交互：悬挂系统、液压系统、油路系统、电路系统、控制系统、新风系统，等等。操作系统也是一样，当我们安装完成了一台Fedora 37之后，进入GNOME 桌面你会发现上面有很多很多好玩的东西。图形界面中的GNOME 能够帮助有一个用户友好的图形桌面系统，其中有Nautilus的文件管理器，有NetworkManager相关的配置工具能够让你拥有一个图形化的网络配置工具等等。同样的，他上面也拥有很多命令行的命令，打开他们的方法就是进入到一个命令行工具当中。之后你便进入到了霍格沃兹的图书馆中，成百上千条的命令等待你的调遣，但是最重要的是，你知道你要干嘛，你知道哪条命令能够帮助你完成你想做的事情。
 
 
 
