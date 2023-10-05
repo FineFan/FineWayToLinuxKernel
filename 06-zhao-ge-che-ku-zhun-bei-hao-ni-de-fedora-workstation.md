@@ -49,7 +49,25 @@
 
 如果更新中包含了kernel相关的rpm包，则我们需要重启一下。如下图 你的命令行提示符可能和我的有些不一样，不用担心我在后面会进行详细的解释。
 
+<figure><img src=".gitbook/assets/dnf_update_y_kernel_screenshot.jpg" alt=""><figcaption></figcaption></figure>
 
+这里完成安装之后我们可以使用 **grubby --default-kernel** 命令来查看一下系统下一次启动时默认的内核是什么， **uname -r** 查看的是当前正在运行的内核
+
+
+
+<figure><img src=".gitbook/assets/grubby_default_kernel_uname_reboot.jpg" alt=""><figcaption></figcaption></figure>
+
+为了方便记忆，我在我脑袋中的图片想的是这样的一张图。
+
+<figure><img src=".gitbook/assets/pickup_truck_to_reboot_new_engine.jpg" alt=""><figcaption></figcaption></figure>
+
+虽然说Linux 最强悍的地方就是可以动态升级不用重启，但是由于Kernel 这个包实在是太过于特殊，所以在更新完成Kernel的包之后就必须要进行重新启动才能将更新的包应用在当前的系统之上。上图中为了方便大家观看，我把完整的 Kernel rpm 名称中的其他部分都删掉了，只留下来数字方便大家通过比较数字大小来判断哪个更新，数字越大版本越新。
+
+
+
+
+
+## 关于Fedora 的生命周期
 
 
 
