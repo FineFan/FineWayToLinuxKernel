@@ -183,9 +183,31 @@ make -j 16
 
 整个 编译过程中大概需要 30-40分钟不等，具体的时长根据你的机器性能来决定。
 
+我这边稍等片刻之后，发现编译出现了问题：
 
 
 
+<figure><img src=".gitbook/assets/kernel_make_error_1.jpg" alt=""><figcaption></figcaption></figure>
+
+重新执行 make -j 16 all得到如下报错
+
+
+
+<figure><img src=".gitbook/assets/kernel_make_all_error_02.jpg" alt=""><figcaption></figcaption></figure>
+
+修改.config文件
+
+
+
+<pre><code>//这些行添加注释掉
+<strong>  6024 #CONFIG_VIDEO_SONY_BTF_MPX=m    
+</strong>10447 #CONFIG_DEBUG_INFO_BTF=y
+10689 #CONFIG_PROBE_EVENTS_BTF_ARGS=y
+</code></pre>
+
+之后 make menuconfig 保存为新的 配置文件&#x20;
+
+make -j 16 all
 
 #### 首次运行
 
