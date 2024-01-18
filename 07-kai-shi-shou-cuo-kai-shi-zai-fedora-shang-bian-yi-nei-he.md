@@ -42,9 +42,9 @@ git
 
 wget
 
-tmux
+tmux &#x20;
 
-
+ncurses-devel
 
 ```shell
 // 切换到 root用户然后使用 dnf 安装先关的rpm包
@@ -168,8 +168,68 @@ root@X300F36 linux-6.6.12 #
 // 由于还有一些没有回答的问题 我们先使用下面的 命令来将剩下的问题重置为默认
 make menuconfig
 // 真正开始编译内核  ,调用16个 worker来编译内核
-make -j 16
+make -j 16 all
 ```
+
+如果你前面没有安装好 ncurses-devel在  make menuconfig的时候就会出现如下报错：
+
+<figure><img src=".gitbook/assets/kernel_make_menuconfig_error01.jpg" alt=""><figcaption></figcaption></figure>
+
+使用 dnf -y install ncurses-devel 既可
+
+继续 make menuconfig 之后 得到了如下报错
+
+<figure><img src=".gitbook/assets/kernel_make_menuconfig_error02.jpg" alt=""><figcaption></figcaption></figure>
+
+使用dnf -y install flex 之后 安装相关的包就好了&#x20;
+
+继续 make menuconfig 之后 继续执行 make menuconfig
+
+<figure><img src=".gitbook/assets/kernel_make_menuconfig_error03.jpg" alt=""><figcaption></figcaption></figure>
+
+这里遇到报错时候 dnf -y install flex&#x20;
+
+之后 继续 make menuconfig&#x20;
+
+
+
+<figure><img src=".gitbook/assets/kernel_make_menuconfig_error_03.jpg" alt=""><figcaption></figcaption></figure>
+
+dnf -y install bison
+
+
+
+之后 终于看到了   menuconfig 的 本来面目
+
+<figure><img src=".gitbook/assets/kernel_makemenu_success.jpg" alt=""><figcaption></figcaption></figure>
+
+这里使用 tab 键键光标放到下面的 \<Save>上面 确认就好了
+
+
+
+
+
+make -j 16 all
+
+<figure><img src=".gitbook/assets/kernel_make_libelf_error_01.jpg" alt=""><figcaption></figcaption></figure>
+
+dnf -y install elfutils-libelf-devel
+
+
+
+make -j 16 all
+
+<figure><img src=".gitbook/assets/kernel_make_all_openssl_error01.jpg" alt=""><figcaption></figcaption></figure>
+
+dnf -y install openssl-devel
+
+
+
+make -j 16 all
+
+
+
+
 
 之后就是漫长的等待了
 
