@@ -269,6 +269,44 @@ make -j 16 all
 
 make -j 16 all
 
+
+
+还有有报错   根据  尹剑虹 大哥的提示 我们加上  V=2 来讲相关的 信息打印出来
+
+相关的信息可以在 make   help中得到 。请注意这里一定要在
+
+
+
+
+
+<figure><img src=".gitbook/assets/kernel_make_all_phony_error01.jpg" alt=""><figcaption></figcaption></figure>
+
+dnf -y install zstd
+
+make -j 16 all V=2
+
+这次  终于完成了。。。终于完成了。。。
+
+
+
+<figure><img src=".gitbook/assets/kernel_make_all_success.jpg" alt=""><figcaption></figcaption></figure>
+
+
+
+之后便是将  编译好的 内核模块 安装到现有的系统上。
+
+make modules\_install
+
+<figure><img src=".gitbook/assets/kernel_make_moudles_install.jpg" alt=""><figcaption></figcaption></figure>
+
+
+
+make install
+
+
+
+
+
 #### 首次运行
 
 
