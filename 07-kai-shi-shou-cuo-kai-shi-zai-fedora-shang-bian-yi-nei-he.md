@@ -303,11 +303,34 @@ make modules\_install
 
 make install
 
+<figure><img src=".gitbook/assets/kernel_make_install_success.jpg" alt=""><figcaption></figcaption></figure>
+
+<figure><img src=".gitbook/assets/ls_l_boot_vmlinuz.jpg" alt=""><figcaption></figcaption></figure>
+
+
+
+<figure><img src=".gitbook/assets/grubby_default_kernel.jpg" alt=""><figcaption></figcaption></figure>
+
+```
+root@X300F39 linux-6.6.12 # grubby --default-kernel
+/boot/vmlinuz-6.6.12
+root@X300F39 linux-6.6.12 # uname -r
+6.6.11-200.fc39.x86_64
+```
+
+
+
+
+
 
 
 
 
 #### 首次运行
+
+
+
+<figure><img src=".gitbook/assets/newkernel_reboot.jpg" alt=""><figcaption></figcaption></figure>
 
 
 
