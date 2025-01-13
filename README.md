@@ -18,7 +18,13 @@ description: 完成
 
 就这样我在我的第一个面试的时候 ，急中生智给自己起了这个英文名字。
 
+So that is how I made up my English name in a harry  at the first job interview.
+
 确实在英文体系中不会有人用这个词作为自己的名字。但怎奈我当时一紧张，脑袋里面就只有这一句英文了。后来想想似乎结果也还不错，和我的名字的中文发音也很像。去了客户现场，也容易被记住。从那天起我自己对外的英文名字 就叫做 Fine了。Fine确实 不如 Mike Jack Eric  Allen 等等 看起来更地道一些，但是 那一天的选择就这么延续过来了。。。
+
+
+
+Still I don't think people who speaking English will pick up this word as their name. Anyway I was in a harry and I was nervous ,and that was the only word comes out of my mind. After all these years when I look back the result seems not that bad, it is much similar with my Chinese name pronounce ，easier to be remembered when I met my customers. So I call myself Fine from that day, yes, Fine it's not English name like Mick Jack Eric or Allen , but that is how it started and I used it still.
 
 
 
